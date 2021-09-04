@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kaisei HarunoUmi", serif;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  margin: 5rem auto;
+  width: 40%;
+  border-radius: 0.4rem;
+  box-shadow: 12px 12px 8px 1px #18afde;
+}
+body {
+  background-color: #4a3be8;
+}
+h4 {
+  margin-top: 10px;
+}
+#menu {
+  margin-top: 1rem;
+}
+#btn {
+  padding: 5px;
+  border-radius: 0.5rem;
+  margin: 0 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+#btn:hover {
+  cursor: pointer;
+  background-color: #4a3be8;
+  color: white;
+}
+
+#listItem {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding: 15px;
+  list-style: none;
+  margin: 20px auto;
+  text-align: left;
+  width: 50%;
+}
+#listItem:hover {
+  background-color: #18afde;
+  color: white;
+}
+
+#song {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+#description {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 0.5rem;
+}
