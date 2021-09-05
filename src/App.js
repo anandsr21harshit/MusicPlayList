@@ -9,10 +9,6 @@ export default function App() {
     setPlayList(music);
   }
 
-  function knowMore(singer) {
-    const detail = document.getElementById("details");
-    detail.innerText = `Singer: ${singer}`;
-  }
   return (
     <div className="App">
       <div className="header">
@@ -34,6 +30,9 @@ export default function App() {
             return (
               <li id="listItem">
                 <div id="song">{music.name}</div>
+                <div id="pic">
+                  <img src={music.pic} id="pic" />
+                </div>
                 <div id="singer">By {music.singer}</div>
               </li>
             );
